@@ -1,7 +1,7 @@
 git init -> iniciar repositório local
 git add . -> adicionar todos os arquivos para área de staging
 git status -> status de commit e staging
-git commit -m "" -> commit 
+git commit -m "" -> commit com mensagem
 git branch -M "main" -> alterar nome da branch
 git remote add origin <repositório> -> conectar o repositório local com o remoto do github
 git push -u origin main -> enviar os arquivos para o repositório remoto pela primeira vez
