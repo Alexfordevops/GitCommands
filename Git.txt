@@ -1,0 +1,13 @@
+git init -> iniciar repositório local
+git add . -> adicionar todos os arquivos para área de staging
+git status -> status de commit e staging
+git commit -m "" -> commit 
+git branch -M "main" -> alterar nome da branch
+git remote add origin <repositório> -> conectar o repositório local com o remoto do github
+git push -u origin main -> enviar os arquivos para o repositório remoto pela primeira vez
+git push origin <nome_da_branch> -> enviar os arquivos para o repositório remoto
+git checkout <nome_da_branch> -> selecionar a branch
+git checkout -b "nova_branch" -> criar nova branch
+git clone <endereço_repo> -> Receber arquivos do repositório remoto
+git pull -> Atualizar o repositório local
+git merge "nova_branch" -> unir duas branch
