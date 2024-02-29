@@ -11,3 +11,6 @@ git checkout -b "nova_branch" -> criar nova branch
 git clone <endereço_repo> -> Receber arquivos do repositório remoto
 git pull -> Atualizar o repositório local
 git merge "nova_branch" -> unir duas branch
+git log -> Histórico de commits
+git log --author =<nome do autor> -> histórico de um único usuário
+git log --name-status -> histórico apenas dos arquivos alterados
